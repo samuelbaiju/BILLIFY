@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-qlk*$ylu-p%dc36i*&0)*2xyfy1^=oqv%*m9^#cwtxjwz9t$d!
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['*']   # Allow all hosts for development purposes
+ALLOWED_HOSTS = ['https://billify-a3z8.onrender.com']    # Allow all hosts for development purposes
+
+CSRF_TRUSTED_ORIGINS = ['https://billify-a3z8.onrender.com']
 
 
 
